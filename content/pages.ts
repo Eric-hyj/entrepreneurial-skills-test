@@ -48,7 +48,7 @@ export const pages: Record<string, MarketingPage> = {
   "entrepreneurial-skills-test": {
     slug: "entrepreneurial-skills-test",
     path: "/entrepreneurial-skills-test",
-    title: "Entrepreneurial Skills Test: Free 30-Question Assessment",
+    title: "Entrepreneurial Skills Test: Free 30-Question Founder Skills Quiz",
     description:
       "Take a free entrepreneurial skills test with 30 questions covering opportunity recognition, creativity, risk, leadership, financial thinking, and execution.",
     h1: "Entrepreneurial Skills Test",

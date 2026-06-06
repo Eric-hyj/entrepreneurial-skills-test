@@ -4,8 +4,10 @@ import { site } from "@/lib/site";
 
 export function pageMetadata(slug?: string): Metadata {
   const page = slug ? pages[slug] : undefined;
-  const title = page?.title || "Entrepreneurial Skills Test: Assess Your Entrepreneurial Skills";
-  const description = page?.description || site.description;
+  const title = page?.title || "Free Entrepreneurial Skills Test: Find Your Strengths & Gaps";
+  const description =
+    page?.description ||
+    "Take a free entrepreneurial skills test to discover your strengths, skill gaps, profile type, and practical next steps in about 5 minutes.";
   const path = page?.path || "/";
   const url = `${site.url}${path}`;
 
