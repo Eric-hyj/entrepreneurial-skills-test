@@ -1,10 +1,10 @@
 export const site = {
   name: "Entrepreneurial Skills Test",
   shortName: "SkillSignal",
-  url: "https://entrepreneurialskillstest.com",
+  url: "https://entrepreneurialskills.online",
   description:
     "Take a free entrepreneurial skills test to assess your strengths, weaknesses, and get a personalized improvement plan for becoming a better entrepreneur.",
-  email: "hello@entrepreneurialskillstest.com"
+  email: "hello@entrepreneurialskills.online"
 };
 
 export const coreLinks = [
