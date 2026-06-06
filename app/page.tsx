@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AssessmentTool } from "@/components/assessment-tool";
+import { AssessmentSeoContent } from "@/components/assessment-seo-content";
 import { JsonLd } from "@/components/json-ld";
 import { homeFaqs, pages } from "@/content/pages";
 import { dimensions } from "@/lib/assessment";
@@ -107,6 +108,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <AssessmentSeoContent />
 
       <section className="faq-section">
         <div className="section-heading">

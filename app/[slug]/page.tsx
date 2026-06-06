@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AssessmentSeoContent } from "@/components/assessment-seo-content";
 import { AssessmentTool } from "@/components/assessment-tool";
 import { JsonLd } from "@/components/json-ld";
 import { pages } from "@/content/pages";
@@ -52,6 +53,10 @@ export default async function MarketingPage({ params }: { params: Promise<{ slug
       <div className="page-band">
         <AssessmentTool />
       </div>
+
+      {page.slug === "entrepreneurial-skills-test" || page.slug === "entrepreneurial-skills-assessment" ? (
+        <AssessmentSeoContent />
+      ) : null}
 
       <section className="faq-section">
         <div className="section-heading">
