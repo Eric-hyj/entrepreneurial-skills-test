@@ -163,43 +163,93 @@ export const pages: Record<string, MarketingPage> = {
   "entrepreneurial-skills-examples": {
     slug: "entrepreneurial-skills-examples",
     path: "/entrepreneurial-skills-examples",
-    title: "Entrepreneurial Skills Examples: 6 Practical Skill Areas",
+    title: "Entrepreneurial Skills Examples for Students and Founders",
     description:
-      "Explore entrepreneurial skills examples across opportunity recognition, creativity, risk, leadership, financial thinking, and execution.",
+      "Explore practical entrepreneurial skills examples for students, aspiring founders, and early-stage entrepreneurs across six core skill areas.",
     h1: "Entrepreneurial Skills Examples",
     eyebrow: "Practical examples",
     intro:
-      "Entrepreneurial skills become easier to understand when you can see them in real situations. These examples map directly to the six dimensions used in the free test.",
+      "Entrepreneurial skills become easier to understand when you can see them in real situations. These examples show how opportunity recognition, creativity, risk decisions, leadership, financial thinking, and execution appear in school projects, side projects, and early businesses.",
     cta: "Test your entrepreneurial skills",
     sections: [
       {
-        heading: "Opportunity recognition examples",
+        heading: "Examples of opportunity recognition",
         body:
-          "Opportunity recognition is the habit of seeing useful problems before they are neatly packaged as business ideas.",
+          "Opportunity recognition is the habit of seeing useful problems before they are neatly packaged as business ideas. A person with this skill notices repeated friction, asks why it happens, and looks for a simple way to make the situation better.",
         points: [
-          "Noticing that students keep using messy spreadsheets for a recurring task",
-          "Turning repeated customer complaints into a better service workflow",
-          "Spotting a trend before competitors create focused tools for it"
+          "A student notices that classmates keep using messy spreadsheets for the same group-project task and builds a simpler template.",
+          "A small shop owner sees repeated customer complaints about pickup times and redesigns the ordering workflow.",
+          "An aspiring founder spots a fast-growing search trend before larger competitors create focused tools for that need."
         ]
       },
       {
-        heading: "Leadership and financial thinking examples",
+        heading: "Examples of creative problem solving",
         body:
-          "Entrepreneurs need more than ideas. They need to explain, organize, price, budget, and choose tradeoffs under constraints.",
+          "Creative problem solving is not just having unusual ideas. In entrepreneurship, it means testing different ways to solve a real customer problem when the first solution is too expensive, too slow, or too confusing.",
         points: [
-          "Persuading two classmates or teammates to test a prototype",
-          "Estimating whether a small project can cover software and marketing costs",
-          "Choosing a simple paid plan instead of building too many free features"
+          "Turning a complex app idea into a single landing page that validates demand first.",
+          "Replacing a custom feature with a manual service for the first ten customers.",
+          "Using customer feedback to simplify an offer instead of adding more features."
         ]
       },
       {
-        heading: "Execution and resilience examples",
+        heading: "Examples of risk and decision making",
         body:
-          "Execution turns entrepreneurial intent into evidence. Resilience helps you keep learning when the first version fails.",
+          "Entrepreneurial risk skill means taking measured action under uncertainty. It is not reckless confidence. Strong founders reduce risk by running small tests, setting limits, and learning from evidence.",
         points: [
-          "Shipping a landing page before the product is perfect",
-          "Interviewing users after a weak launch instead of giving up",
-          "Breaking a large goal into weekly experiments"
+          "Spending one weekend and a small ad budget to test demand before building a full product.",
+          "Choosing a narrow target customer instead of trying to serve everyone.",
+          "Stopping a weak idea after customer interviews show the problem is not urgent."
+        ]
+      },
+      {
+        heading: "Examples of leadership and communication",
+        body:
+          "Entrepreneurs need to explain ideas clearly, organize people, ask for feedback, and make decisions when resources are limited. Leadership can show up before a company exists.",
+        points: [
+          "Persuading two classmates or teammates to test a prototype with real users.",
+          "Writing a clear one-page pitch so potential users understand the problem and offer.",
+          "Turning vague feedback into a prioritized list of next actions."
+        ]
+      },
+      {
+        heading: "Examples of financial thinking",
+        body:
+          "Financial thinking helps entrepreneurs connect ideas to resources. You do not need to be an accountant, but you do need to understand costs, pricing, margins, and whether a project can become sustainable.",
+        points: [
+          "Estimating whether a small project can cover software, payment, and marketing costs.",
+          "Comparing a free plan, a one-time purchase, and a subscription before choosing a pricing model.",
+          "Deciding not to build a feature because the expected revenue does not justify the time cost."
+        ]
+      },
+      {
+        heading: "Examples of execution and resilience",
+        body:
+          "Execution turns entrepreneurial intent into evidence. Resilience helps you keep learning when the first version fails, traffic is low, or customers do not respond as expected.",
+        points: [
+          "Shipping a landing page before the product is perfect so real users can react.",
+          "Interviewing users after a weak launch instead of giving up immediately.",
+          "Breaking a large goal into weekly experiments with one measurable outcome."
+        ]
+      },
+      {
+        heading: "Student entrepreneurial skills examples",
+        body:
+          "Students often build entrepreneurial skills through projects, competitions, clubs, internships, and small online experiments. The goal is not to look like a polished founder. The goal is to practice noticing problems and turning ideas into evidence.",
+        points: [
+          "Running a survey before choosing a class project idea.",
+          "Building a simple prototype for an entrepreneurship competition.",
+          "Testing whether people will sign up for a newsletter, template, or small digital product."
+        ]
+      },
+      {
+        heading: "Early founder entrepreneurial skills examples",
+        body:
+          "For early founders, entrepreneurial skills show up in daily tradeoffs. The most valuable examples are usually small actions that create learning faster than planning alone.",
+        points: [
+          "Choosing one customer segment and writing landing page copy for that exact audience.",
+          "Launching a minimum viable version and watching which features users actually touch.",
+          "Using the first ten customer conversations to rewrite the offer, pricing, and onboarding flow."
         ]
       }
     ],
@@ -218,6 +268,16 @@ export const pages: Record<string, MarketingPage> = {
         question: "How do I know which skill to improve first?",
         answer:
           "Start with a structured assessment, then focus on the lowest dimension that most affects your current goal."
+      },
+      {
+        question: "What is a simple example of entrepreneurship skill in daily life?",
+        answer:
+          "A simple example is noticing a repeated problem, asking people how painful it is, creating a small solution, and checking whether anyone wants to use or pay for it."
+      },
+      {
+        question: "Are entrepreneurial skills only for startup founders?",
+        answer:
+          "No. Students, employees, freelancers, creators, and small business owners can use entrepreneurial skills to spot problems, organize resources, make better decisions, and execute projects."
       }
     ],
     related: [
